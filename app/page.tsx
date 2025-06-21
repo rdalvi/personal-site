@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="p-8 sm:p-20 font-[family-name:var(--font-geist-sans)] max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold mb-10">Rohan Dalvi</h1>
+      <h1 className="text-4xl font-bold mb-10">Rusty Dingo</h1>
 
       <section className="mb-16">
         <h2 className="text-2xl font-semibold mb-4 border-b pb-2">About me</h2>
@@ -18,10 +18,10 @@ export default function Home() {
         <ul className="list-disc pl-5 space-y-2">
           <li>
             <Link
-              href="/essays/dummy-essay"
+              href="/essays/reflections"
               className="text-lg text-blue-600 hover:underline"
             >
-              My First Essay
+              Reflections, February - June 2025
             </Link>
           </li>
         </ul>
