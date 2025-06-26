@@ -24,6 +24,14 @@ export default function Home() {
               Reflections on the first half of 2025
             </Link>
           </li>
+          <li>
+            <Link
+              href="/essays/personal-dag"
+              className="text-lg text-blue-600 hover:underline"
+            >
+              Graphical model
+            </Link>
+          </li>
         </ul>
       </section>
 
