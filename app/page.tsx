@@ -12,7 +12,11 @@ export default function Home() {
           and industrial companies. Enjoy cooking and reading.
         </p>
         <br/>
-        <p className="text-lg leading-relaxed">Current project: eating as much pizza as possible before leaving NYC. Have visited 19 pizza places - 14 were traditional New York-style, 5 were other variations.</p>
+        <p className="text-lg leading-relaxed">
+          <Link href="/essays/pizza-places" className="text-blue-600 hover:underline">
+            Current project
+          </Link>: eating as much pizza as possible before leaving NYC. Have visited 22 pizza places - 17 were traditional New York-style, 5 were other variations.
+        </p>
       </section>
 
       <section className="mb-16">
