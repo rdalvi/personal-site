@@ -1,6 +1,6 @@
 "use client";
 import ReactMarkdown from "react-markdown";
-import DAGDiagram from "./DAGDiagram";
+// import DAGDiagram from "./DAGDiagram";
 import Link from "next/link";
 
 export default function PersonalDAGClient({ markdown }: { markdown: string }) {
@@ -13,7 +13,7 @@ export default function PersonalDAGClient({ markdown }: { markdown: string }) {
         <ReactMarkdown>{markdown}</ReactMarkdown>
       </article>
       <section className="mt-16">
-        <DAGDiagram />
+        {/* <DAGDiagram /> */}
       </section>
     </main>
   );

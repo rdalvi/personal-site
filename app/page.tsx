@@ -3,14 +3,16 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="p-8 sm:p-20 font-[family-name:var(--font-geist-sans)] max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold mb-10">Rusty Dingo</h1>
-
-      <section className="mb-16">
+      <h1 className="text-4xl font-bold mb-2">Rusty Dingo</h1>
+      <div className="text-sm italic text-gray-400 mb-5">New York City, NY</div>
+      <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4 border-b pb-2">About me</h2>
         <p className="text-lg leading-relaxed">
           Making logistics more efficient. Previously consulted for healthcare
           and industrial companies. Enjoy cooking and reading.
         </p>
+        <br/>
+        <p className="text-lg leading-relaxed">Current project: eating as much pizza as possible before leaving NYC. Have visited 19 pizza places - 14 were traditional New York-style, 5 were other variations.</p>
       </section>
 
       <section className="mb-16">
@@ -22,14 +24,6 @@ export default function Home() {
               className="text-lg text-blue-600 hover:underline"
             >
               Reflections on the first half of 2025
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/essays/personal-dag"
-              className="text-lg text-blue-600 hover:underline"
-            >
-              Graphical model
             </Link>
           </li>
         </ul>
