@@ -28,7 +28,7 @@ const pizzaData = [
   { name: "Nate's", category: "Nontraditional", takeaway: "Good detroit style pizza, uses mozzarella instead of brick cheese. The hawaiian was exciting." },
   { name: "Stretch Pizza", category: "Nontraditional", takeaway: "A truly premier nontraditional pizza spot. The pizzas follow the architecture of a NY slice but is creative with toppings. A curious and charming encounter with Wylie Dusfresne enhances the appeal of the spot for me." },
   { name: "Ace's", category: "Nontraditional", takeaway: "Good detroit style pizza; no specific takeaways as I was at the end of a pizza crawl and pizza'd out." },
-  { name: "F&F's", category: "Traditional", takeaway: "Really good. One of the most charred-tasting pizzas, in a good way. Some interesting and innovative flavors too - e.g, a red onion & calabrian chili slice was excellent." },
+  { name: "F&F Pizzeria", category: "Traditional", takeaway: "Really good. One of the most charred-tasting pizzas, in a good way. Some interesting and innovative flavors too - e.g, a red onion & calabrian chili slice was excellent." },
 ];
 
 export default function PizzaPlacesPage() {
