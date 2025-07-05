@@ -78,6 +78,7 @@ export default function Home() {
           <li><i>A Clockwork Orange</i> by Anthony Burgess</li>
           <li><i>Catch-22</i> by Joseph Heller</li>
           <li><i>The Great Gatsby</i> by F. Scott Fitzgerald</li>
+          <li><i>Watchmen</i> by Alan Moore</li>
           <li><i>The Curious Incident of the Dog in the Night-time</i> by Mark Haddon</li>
         </ul>
       </section>
